@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #9fdbe4, #655ad1);
+        }
+        
+        .container1 {
+            margin-top: 30px;
+            background-color: rgb(224, 251, 255);
+            height: 800px;
+            width: 500px;
+            margin-left: 60px;
+            float: left;
+            border: 2px solid black;
+        }
+        
+        #tshirtimg {
+            margin-left: 700px;
+            margin-top: 20px;
+            position: absolute;
+            top: 60px;
+            right: 980px;
+            border: 2px solid black;
+        }
+        
+        .container2 {
+            height: 800px;
+            width: 700px;
+            position: absolute;
+            top: 40px;
+            left: 700px;
+            background-color: rgb(224, 251, 255);
+            float: right;
+            border: 2px solid black;
+        }
+        
+        #color_red {
+            font-weight: bolder;
+            background-color: red;
+            border: 2px solid black;
+            width: 150px;
+            color: black;
+        }
+        
+        #color_black {
+            font-weight: bolder;
+            background-color: black;
+            border: 2px solid black;
+            width: 150px;
+            color: white;
+        }
+        
+        #color_blue {
+            font-weight: bolder;
+            background-color: rgb(51, 182, 233);
+            border: 2px solid black;
+            width: 150px;
+            color: black;
+        }
+        
+        #color_white {
+            font-weight: bolder;
+            background-color: white;
+            border: 2px solid black;
+            width: 150px;
+            color: black;
+        }
+        
+        #color_yellow {
+            font-weight: bolder;
+            background-color: yellow;
+            border: 2px solid black;
+            width: 150px;
+            color: black;
+        }
+        
+        #color_green {
+            font-weight: bolder;
+            background-color: green;
+            border: 2px solid black;
+            width: 150px;
+            color: black;
+        }
+        
+        #color_violet {
+            font-weight: bolder;
+            background-color: violet;
+            border: 2px solid black;
+            width: 150px;
+            color: black;
+        }
+        
+        #submit:hover {
+            background-color: black;
+            color: white;
+            font-size: 20px;
+        }
+        
+        #reset:hover {
+            background-color: black;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- <div style="display: flex;" id="image">
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"> -->
+
+
+    <div class="container1">
+        <img src="https://cdn.shopify.com/s/files/1/1038/1798/products/t-shirt-psd-mockup-free-download-h3.jpg?v=1525178058" id="tshirtimg" alt="" height="300px" width="350px"><br><br>
+        <h3 style="margin-top:340px;text-align: center;">About Us</h3>
+        <p style="text-align: center;">We work with numerous new and established graphical <br> designers to produce a truly unique product. <br> Our range of designs is constantly evolving, and <br> we want to have something for everyone. The <br> garments and accessories we produce
+            are interpretations
+            <br> of pop cultural influences. In addition to <br> our own work we benefit from our creative community <br> a growing network of designers from all <br> around the world.</p>
+        <br><br>
+        <h3 style="margin-left:200px;">Contact Us</h3>
+        <a href="#" class="fa fa-facebook" style="margin-left:180px;font-size: 30px;word-spacing: 15px;padding:8px 8px;"></a>
+        <a href="#" class="fa fa-twitter" style="font-size:30px;word-spacing: 15px;padding:8px 8px;"></a>
+        <a href="#" class="fa fa-instagram" style="font-size: 30px;word-spacing: 15px;padding:8px 8px;"></a>
+    </div>
+    <div class="container2">
+        <label for="" style="font-family:fantasy ;font-size: 30px;margin-left: 180px;margin-top: 17px;">Customize your own Tees</label><br><br><br>
+        <label for="" style="font-family:serif ;font-size: 18px;margin-left: 100px;"><b>Tagline</b></label>
+        <input type=" text " placeholder="eg.INDIA " style="margin-left:20px"><br><br>
+        <label for="" style="font-family:serif ;font-size: 18px;margin-left: 102px;"><b>Color</b></label>
+        <select name="" id="" style="margin-left:30px;">
+            <option value="" id="color_red">red</option>
+            <option value="" id="color_black">black</option>
+            <option value="" id="color_blue">dark blue</option>
+            <option value="" id="color_white">white</option>
+            <option value="" id="color_yellow">yellow</option>
+            <option value="" id="color_green">green</option>
+            <option value="" id="color_violet">violet</option>
+        </select><br><br>
+
+        <label for="" style="font-family:serif ;font-size: 18px;margin-left: 103px;"><b>Size</b></label>
+        <input type="radio" name="size" id="size" value="size" style="margin-left:45px">
+        <label for="">S</label>
+        <input type="radio" name="size" id="size" value="size" style="margin-left:20px">
+        <label for="">M</label>
+        <input type="radio" name="size" id="size" value="size" style="margin-left:20px">
+        <label for="">L</label>
+        <input type="radio" name="size" id="size" value="size" style="margin-left:20px">
+        <label for="">XL</label>
+        <input type="radio" name="size" id="size" value="size" style="margin-left:20px">
+        <label for="">XXL</label>
+        <br><br>
+        <label for="" style="font-family:serif ;font-size: 18px;margin-left: 100px;"><b>Quantity</b></label>
+        <input type="number" min="1" style="margin-left:7px"><br><br>
+
+        <label for="" style="font-family:serif ;font-size: 18px;margin-left: 100px;"><b>Date</b></label>
+        <input type="date" style="margin-left:40px"><br><br>
+
+
+        <label for="" style="font-family:serif ;font-size: 18px;margin-left: 100px;"><b>Name</b></label>
+        <input type="text" style="margin-left:32px"><br><br>
+        <label for="" style="font-family:serif ;font-size: 18px;margin-left: 100px;"><b>Contact no</b></label>
+        <input type="tel" style="margin-left:4px"><br><br>
+        <label for="" style="font-family:serif ;font-size: 18px;margin-left: 100px;"><b>Email-id</b></label>
+        <input type="email" style="margin-left:17px"><br><br>
+        <label for="" style="font-family:serif ;font-size: 18px;margin-left: 100px;"><b>Delivery address</b></label><br>
+        <textarea name="" id="" cols="30" rows="6" style="margin-left:200px"></textarea><br><br>
+        <label for="" style="font-family:serif ;font-size: 18px;margin-left: 100px;"><b>Postal code</b></label>
+        <input type="text" style="margin-left:5px"><br><br>
+
+        <label for="" style="font-family:serif ;font-size: 18px;margin-left: 100px;"><b>Choose payment mode</b></label>
+        <input type="radio" name="payment"><label for="" style="margin-left:5px">Card</label>
+        <input type="radio" name="payment"><label for="" style="margin-left:5px">Cash</label>
+        <input type="radio" name="payment"><label for="" style="margin-left:5px">UPI</label><br><br>
+        <label for="" style="font-family:serif ;font-size: 18px;margin-left: 100px;"><b>Card type</b></label>
+        <input type="radio" name="card" id="" style="margin-left:20px;"><label for=""><img src="https://img.favpng.com/0/13/13/logo-credit-card-visa-debit-card-png-favpng-taW54peCTP9PVueqXhFpit1FG.jpg"
+            alt="" height="25px" width="40px">&nbsp;&nbsp;VISA</label>
+
+        <input type="radio" name="card" id="" style="margin-left:20px;"><label for=""><img src="https://cdn.vox-cdn.com/thumbor/lC7DpPIuz3u2Th6u9L1f2C3ZTHM=/0x169:1000x732/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/50124045/mastercard_logo.0.png"
+                alt="" height="25px" width="40px">&nbsp;&nbsp;MASTER CARD</label>
+        <input type="radio" name="card" id="" style="margin-left:20px;"><label for=""><img src="https://i.pinimg.com/originals/0d/a5/56/0da556be226d5dc221d98b57efd9c1f6.png"
+                    alt="" height="25px" width="40px">&nbsp;&nbsp;RuPay</label><br><br>
+        <label for="" style="font-family:serif ;font-size: 18px;margin-left: 100px;"><b>Price</b> 500/- per T-Shirt</label><br><br>
+
+        <input type="checkbox" name="T&C" id="T&C" style="font-family:serif ;font-size: 18px;margin-left: 100px;">
+        <label style="font-family:serif ;font-size: 18px;margin-left: 10px;">I agree to <a href="#">Terms and conditions</a></label>
+        <br><br>
+
+        <input type="submit" value="Confirm" style="font-family:serif ;font-size: 18px;margin-left: 100px;" id="submit" />
+
+        <input type="reset" value="Reset" style="font-family:serif ;font-size: 18px;margin-left: 20px;" id="reset" />
+
+    </div>
+    </form>
+</body>
+
+</html>
